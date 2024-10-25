@@ -1,0 +1,17 @@
+#tabela {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid black;
+    thead{
+        background-color: black;
+        color: white;
+        th{
+            padding: 10px 0;
+        }
+    }
+    tbody{
+        tr:nth-child(even){
+            background-color: #00000015;
+        }
+    }
+}
